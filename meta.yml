@@ -3,7 +3,10 @@ name: PHP Aula 9 - PDO Parte II
 locale: pt
 type: learning
 beta: false
+teacher_info: ''
 language: php
 id_format: "%05d"
-order: []
+order:
+- 1
+- 2
 private: false
