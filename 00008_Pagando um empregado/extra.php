@@ -6,6 +6,18 @@ abstract Pessoa {
   protected $nome;
   protected $sobrenome;
   protected $email;
+
+  public function __construct($nome, $sobrenome, $email) {
+    $this->nome = $nome;
+    $this->sobrenome = $sobrenome;
+    $this->email = $email;
+  }
+  
+  public abstract function entrarNoPredio($i);
+  
+  public function getNome() {
+    return $this->nome;
+  }
   
   public function getNome() {
     return $this->nome;
