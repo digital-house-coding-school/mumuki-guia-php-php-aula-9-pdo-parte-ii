@@ -1,1 +1,1 @@
-Esta seção é de PDO II.
+Esta seção é de POO II.
