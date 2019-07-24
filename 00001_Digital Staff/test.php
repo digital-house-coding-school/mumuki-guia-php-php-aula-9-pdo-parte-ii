@@ -61,5 +61,6 @@
         
         $resul = $pessoa->getEmail();
         
+        
         $this->assertTrue($resul === "ale@digitalhouse.com", "Os métodos getEmail e setEmail não funcionam corretamente");
     }
