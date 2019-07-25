@@ -1,4 +1,4 @@
-Observe que, até esse ponto, a classe Person funcionará como uma herança tradicional, herdando os atributos e métodos das classes filhas.
+Observe que, até esse ponto, a classe Pessoa funcionará como uma herança tradicional, herdando os atributos e métodos das classes filhas.
 
 No entanto, a classe Pessoa, sendo abstrata, terá uma particularidade: **Não pode ser instanciada**
 
