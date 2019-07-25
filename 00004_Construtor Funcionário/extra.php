@@ -1,4 +1,4 @@
-class Pessoa {
+class Funcionario {
   protected $nome;
   protected $sobrenome;
   protected $email;
