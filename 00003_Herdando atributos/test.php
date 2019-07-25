@@ -34,7 +34,8 @@
     public function testSobrenome(): void {
         $pessoa = new Pessoa();
         
-        $this->assertTrue(property_exists('Pessoa', 'apellido'), "Falta la propiedad apellido");
+        $this->assertTrue(property_exists('Pessoa', 'sobrenome'), "Falta a propriedade sobrenome");
+        
         
         $reflect = new ReflectionClass($pessoa);
 
