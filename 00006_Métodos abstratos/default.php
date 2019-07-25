@@ -1,4 +1,4 @@
-abstract Pessoa {
+abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
   protected $email;
