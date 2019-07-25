@@ -1,4 +1,4 @@
-Acontece que, se olharmos um pouco mais para o nosso diagrama de classes, existem 3 classes que herdam do Persona:
+Acontece que, se olharmos um pouco mais para o nosso diagrama de classes, existem 3 classes que herdam da classe Pessoa:
 
 > 1. Aluno
 > 2. Empregado
