@@ -2,6 +2,7 @@ interface Pagavel {
   public function pagar();
 }
 
+
 abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
@@ -78,7 +79,7 @@ class Funcionario extends Pessoa implements Pagavel {
   public function pagar() {
      return "O " . $this->nome . " " . $this->sobrenome . " que você depositou R$ " . $this->salario; 
   }
-}
+
   
   public function setNome($nome) {
     $this->nome = $nome;
