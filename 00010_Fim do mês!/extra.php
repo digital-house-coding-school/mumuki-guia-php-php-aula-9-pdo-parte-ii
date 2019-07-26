@@ -34,7 +34,7 @@ abstract class Pessoa {
     return $this->pagamentos;
   }
   
-  public function agregarPagamento($pagamento) {
+  public function inserirPagamento($pagamento) {
     $this->pagamentos[] = $pagamento;
   }
   
