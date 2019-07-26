@@ -2,6 +2,7 @@ interface Pagavel {
   public function pagar();
 }
 
+
 abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
@@ -15,10 +16,7 @@ abstract class Pessoa {
   
   public abstract function entrarNoPredio($i);
   
-  public function getNome() {
-    return $this->nome;
-  }
-  
+
   public function getNome() {
     return $this->nome;
   }
