@@ -2,7 +2,7 @@ interface Pagavel {
   public function pagar();
 }
 
-abstract Pessoa {
+abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
   protected $email;
