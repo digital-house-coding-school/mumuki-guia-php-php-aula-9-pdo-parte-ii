@@ -65,12 +65,8 @@ abstract class Pessoa {
   public function pagar() {
     $nome = $this->nome;
     $sobrenome = $this->sobrenome;
-    $salario = 0;
-    
-    foreach ($this->pagamentos as $pagamento) {
-      $salario += $pagamento;
-    }
-     return "O $nome $sobrenome que você depositou R$ $salario";
+
+     return "O $nome $sobrenome que você depositou R$ ". array_sum($this->pagamentos);
   }
 }
 
