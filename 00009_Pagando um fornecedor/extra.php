@@ -15,9 +15,6 @@ abstract class Pessoa {
   
   public abstract function entrarNoPredio($i);
   
-  public function getNome() {
-    return $this->nome;
-  }
   
   public function getNome() {
     return $this->nome;
