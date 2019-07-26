@@ -4,6 +4,7 @@ public function testQuantidadeEstudantes(): void {
         $quantidadeEstudantes = false;
         $eEstatica = false;
         
+        
         foreach ($classe->getProperties() as $p) {
             if ($p->name == "quantidadeEstudantes") {
                 $quantidadeEstudantes = true;
@@ -15,5 +16,5 @@ public function testQuantidadeEstudantes(): void {
         
         $this->assertTrue($eEstatica, "O atributo 'quantidadeEstudantes não é estatico'");
         
-        $this->assertTrue(Estudante::$quantiadeEstudantes === 0, "O valor inicial de quantidades não é 0");
+        $this->assertTrue(Estudante::$quantidadeEstudantes === 0, "O valor inicial de quantidades não é 0");
     }   
