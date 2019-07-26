@@ -1,7 +1,7 @@
 public function testQuantidadeEstudantes(): void {
         $classe = new ReflectionClass('Estudante');
         
-        $temQuantidade = false;
+        $quantidadeEstudantes = false;
         $eEstatica = false;
         
         foreach ($classe->getProperties() as $p) {
@@ -11,7 +11,7 @@ public function testQuantidadeEstudantes(): void {
             }
         }
         
-        $this->assertTrue($temQuantidade, "O atributo 'quantidadeEstudantes' não existe");
+        $this->assertTrue($quantidadeEstudantes, "O atributo 'quantidadeEstudantes' não existe");
         
         $this->assertTrue($eEstatica, "O atributo 'quantidadeEstudantes não é estatico'");
         
