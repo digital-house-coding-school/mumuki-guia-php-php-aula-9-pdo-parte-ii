@@ -2,7 +2,6 @@ interface Pagavel {
   public function pagar();
 }
 
-
 abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
@@ -66,7 +65,7 @@ abstract class Pessoa {
     $nome = $this->nome;
     $sobrenome = $this->sobrenome;
 
-     return "O $nome $sobrenome que você depositou R$ ". array_sum($this->pagamentos);
+     return "$nome $sobrenome recebeu R$". array_sum($this->pagamentos);
   }
 }
 
@@ -93,7 +92,7 @@ class Funcionario extends Pessoa implements Pagavel {
   }
   
   public function pagar() {
-     return "O " . $this->nome . " " . $this->sobrenome . " que você depositou R$ " . $this->salario; 
+     return $this->nome . " " . $this->sobrenome . " recebeu R$" . $this->salario; 
   }
 
 }
