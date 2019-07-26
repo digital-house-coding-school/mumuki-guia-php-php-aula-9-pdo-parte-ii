@@ -2,7 +2,6 @@ interface Pagavel {
   public function pagar();
 }
 
-
 abstract class Pessoa {
   protected $nome;
   protected $sobrenome;
@@ -19,7 +18,7 @@ abstract class Pessoa {
   public function getNome() {
     return $this->nome;
   }
-
+}
   class FornecedorExterno extends Pessoa implements Pagavel {
   private $pagamentos;
   
