@@ -4,6 +4,6 @@ Por contrato, isso nos obrigará a ter a classe `Fornecedor Externo` definindo e
 
 O que o método deveria fazer?
 
-Para este exercício, você simplesmente retornará o texto: "O **NOME** **SOBRENOME** que você depositou R$ **SALÁRIO**", onde **NOME**, **SOBRENOME** e **SALÁRIO** têm que corresponder aos dados da instância.
+Para este exercício, você simplesmente retornará o texto: "**NOME** **SOBRENOME**  depositou R$**SALÁRIO**", onde **NOME**, **SOBRENOME** e **SALÁRIO** têm que corresponder aos dados da instância.
 
 A diferença para um funcionário é como calcular o **PAGAMENTO**. Nesse caso, o atributo `$pagamentos` é um array . O **PAGAMENTO** será calculado como a soma de todos os valores do array `$pagamentos`
