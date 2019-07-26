@@ -19,7 +19,27 @@ abstract class Pessoa {
   public function getNome() {
     return $this->nome;
   }
+    public function setNome($nome) {
+    $this->nome = $nome;
+  }
+  
+  public function getSobrenome() {
+    return $this->sobrenome;
+  }
+  
+  public function setSobrenome($sobrenome) {
+    $this->sobrenome = $sobrenome;
+  }
+  
+  public function getEmail() {
+    return $this->email;
+  }
+  
+  public function setEmail($email) {
+    $this->email = $email;
+  }
 }
+
   class FornecedorExterno extends Pessoa implements Pagavel {
   private $pagamentos;
   
@@ -80,24 +100,4 @@ class Funcionario extends Pessoa implements Pagavel {
      return "O " . $this->nome . " " . $this->sobrenome . " que você depositou R$ " . $this->salario; 
   }
 
-  
-  public function setNome($nome) {
-    $this->nome = $nome;
-  }
-  
-  public function getSobrenome() {
-    return $this->sobrenome;
-  }
-  
-  public function setSobrenome($sobrenome) {
-    $this->sobrenome = $sobrenome;
-  }
-  
-  public function getEmail() {
-    return $this->email;
-  }
-  
-  public function setEmail($email) {
-    $this->email = $email;
-  }
 }
