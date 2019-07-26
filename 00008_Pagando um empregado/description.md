@@ -4,4 +4,4 @@ Por contrato, isso forçará a classe 'Funcionario' definir e implementar o mét
 
 O que o método deveria fazer?
 
-Para este exercício, basta devolver o texto "**NOME** **SOBRENOME**  depositou R$**SALÁRIO**", onde **NOME**, **SOBRENOME ** e **SALÁRIO** têm que corresponder aos dados da instância.
+Para este exercício, basta devolver o texto "**NOME** **SOBRENOME** recebeu R$**SALÁRIO**", onde **NOME**, **SOBRENOME ** e **SALÁRIO** têm que corresponder aos dados da instância.
