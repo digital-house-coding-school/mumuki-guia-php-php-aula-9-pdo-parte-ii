@@ -5,7 +5,7 @@ public function testImplementa(): void {
     }
 
     public function testPagar() : void {
-        $prov = new ProveedorExterno("Juan", "Perez", "juan@perez.com");
+        $prov = new FornecedorExterno("Juan", "Perez", "juan@perez.com");
         
         $prov->agregarPago(500);
         $prov->agregarPago(100);
