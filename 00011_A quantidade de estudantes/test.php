@@ -6,7 +6,7 @@ public function testQuantidadeEstudantes(): void {
         
         foreach ($classe->getProperties() as $p) {
             if ($p->name == "quantidadeEstudantes") {
-                $temQuantidade = true;
+                $quantidadeEstudantes = true;
                 $eEstatica = $p->isStatic();
             }
         }
