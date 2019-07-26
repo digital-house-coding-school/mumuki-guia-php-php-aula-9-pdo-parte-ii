@@ -21,7 +21,7 @@ public function testFimDeMes(): void {
         
         $this->assertTrue(count($resuls) === 4, "A função não retorna a quantidade de elementos esperada no array");
         
-        $funciona = $resuls[0] === 'Juan Perez que você depositou R$300' && $resuls[1] === 'Sara Sanchez que você depositou R$6200' && $resuls[2] === 'Dario Silva que você depositou R$500' && $resuls[3] === 'Ale Viv que você depositou R$600';
+        $funciona = $resuls[0] === 'Juan Perez recebeu R$300' && $resuls[1] === 'Sara Sanchez recebeu R$6200' && $resuls[2] === 'Dario Silva recebeu R$500' && $resuls[3] === 'Ale Viv recebeu R$600';
         
         $this->assertTrue($funciona, "A função não retorna os valores esperados");
         var_dump($resuls);
