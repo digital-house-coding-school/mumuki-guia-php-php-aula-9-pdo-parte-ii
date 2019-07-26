@@ -15,5 +15,5 @@ public function testImplementa(): void {
         
         $this->assertTrue(is_string($resul), "O valor de retorno do método deve ser uma string");
         
-        $this->assertTrue(strtolower($resul) === "o juan perez que você depositou r$ 1600", " Era esperado 'A Juan Perez que você depositou R$ 1600' e foi recebido '$resul'");
+        $this->assertTrue(strtolower($resul) === "juan perez depositou r$ 1600", " Era esperado 'Juan Perez que você depositou R$ 1600' e foi recebido '$resul'");
     }
